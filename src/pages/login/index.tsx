@@ -58,6 +58,11 @@ export default function Login(){
             mb={3}
             value={email}
             onChange={ (e) => setEmail(e.target.value) }
+            _hover={{
+              bg: 'white',
+              color: 'white',
+              textColor: '#000'
+            }}
           />
 
           <Input
@@ -69,6 +74,11 @@ export default function Login(){
             mb={6}
             value={password}
             onChange={ (e) => setPassword(e.target.value) }
+            _hover={{
+              bg: 'white',
+              color: 'white',
+              textColor: '#000'
+            }}
           />
 
           <Button

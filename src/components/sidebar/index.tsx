@@ -78,7 +78,6 @@ const SidebarContent = ({onClose, ...rest}: SidebarProps) => {
   return (
     <Box
       bg="barber.400"
-      borderRight="1px"
       borderRightColor={useColorModeValue('gray.200', 'gray.700')}
       w={{ base: 'full', md: 60 }}
       pos="fixed"
@@ -165,11 +164,15 @@ const MobileNav = ({ onOpen, ...rest }: MobileProps ) => {
       {...rest}
     >
       <IconButton
-        color='#FFF'
+        textColor='#FFF'
         variant="outline"
         onClick={onOpen}
         aria-label="open menu"
         icon={ <FiMenu/> }
+        _hover={{
+          bg: 'barber.900',
+          color: 'white'
+        }}
       />
   
       <Flex flexDirection="row">
