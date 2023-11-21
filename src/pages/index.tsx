@@ -8,7 +8,7 @@ export default function Home(){
         <title>BarberPRO - Seu sistema completo</title>
       </Head>
       <Flex background="barber.900" height="100vh" alignItems="center" justifyContent="center" textColor="#FFFFFF">
-        <Text fontSize={30}>Página Home</Text>
+        <Text fontSize={30}>Página da barbearia</Text>
       </Flex>
     </>
   )
