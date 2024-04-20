@@ -33,7 +33,7 @@ export default function Login(){
   return(
     <>
       <Head>
-        <title>BarberPRO - Faça login para acessar</title>
+        <title>BarberPRO - Faça seu login para acessar</title>
       </Head>
       <Flex background="barber.900" height="100vh" alignItems="center" justifyContent="center" textColor="#FFFFFF">
         
